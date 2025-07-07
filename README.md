@@ -1,10 +1,10 @@
-# 🛍️ Deep Learning-Based E-Commerce Product Recommendation
+# Deep Learning-Based E-Commerce Product Recommendation
 
 This project implements a **personalized product recommender system** using **Neural Collaborative Filtering (NCF)**. Built with PyTorch and deployed via Gradio, it predicts and visualizes the top-k product recommendations for users using the **Amazon Reviews 2023 dataset**.
 
 ---
 
-## 🎯 Objective
+## Objective
 
 Build an efficient recommendation engine that:
 - Learns from user-product interaction history
@@ -38,7 +38,7 @@ Build an efficient recommendation engine that:
 
 ---
 
-## 🖼️ Sample Output
+## Sample Output
 
 ### Bought Items
 <img src="screenshots/Purchased.png" width="400"/>
