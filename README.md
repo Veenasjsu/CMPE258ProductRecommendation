@@ -13,21 +13,8 @@ Build an efficient recommendation engine that:
 
 ---
 
-## 💡 Why NCF?
 
-GNN was initially considered but abandoned due to:
-- High memory and compute requirements (7M records)
-- Graph construction complexity
-- Poor runtime scalability
-
-Instead, we used **NCF**, which:
-- Captures **nonlinear** user-item relationships
-- Handles **sparse data** well with embeddings
-- Scales to large datasets with batch inference
-
----
-
-## 📊 Final Performance (After Fine-Tuning)
+## Final Performance (After Fine-Tuning)
 
 | Metric   | Value     |
 |----------|-----------|
@@ -39,9 +26,11 @@ Instead, we used **NCF**, which:
 
 ✅ Dropout, embedding size reduction, and learning rate scheduling improved generalization and inference speed.
 
+<img src="screenshots/Metrics.png" width="400"/>
+
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frameworks:** PyTorch, Gradio
 - **Dataset:** Amazon Reviews 2023 + Metadata
@@ -51,9 +40,9 @@ Instead, we used **NCF**, which:
 
 ## 🖼️ Sample Output
 
-### ✅ Bought Items
+### Bought Items
 <img src="screenshots/Purchased.png" width="400"/>
 
-### 🎯 Recommended Items
+### Recommended Items
 <img src="screenshots/Recommended.png" width="400"/>
 
