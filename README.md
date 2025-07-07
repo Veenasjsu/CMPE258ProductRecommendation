@@ -48,3 +48,12 @@ Instead, we used **NCF**, which:
 - **Optimization:** TorchScript, parallel DataLoader, batch inference
 
 ---
+
+## 🖼️ Sample Output
+
+### ✅ Bought Items
+<img src="screenshots/Purchased.png" width="400"/>
+
+### 🎯 Recommended Items
+<img src="screenshots/Recommended.png" width="400"/>
+
