@@ -26,7 +26,7 @@ Build an efficient recommendation engine that:
 
 ✅ Dropout, embedding size reduction, and learning rate scheduling improved generalization and inference speed.
 
-<img src="screenshots/Metrics.png" width="400"/>
+<img src="screenshots/Metrics.png" width="800"/>
 
 ---
 
